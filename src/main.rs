@@ -1,6 +1,7 @@
 mod challenges;
 mod functions;
+mod rust_basics;
 
 fn main() {
-    challenges::algorithms::simple_array_sum::main();
+    rust_basics::mutable_borrow::main()
 }
