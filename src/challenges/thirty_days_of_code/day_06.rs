@@ -4,8 +4,8 @@
 use crate::functions;
 
 pub fn main() {
-    let T: i32 = functions::read_line().trim().parse().unwrap();
-    for i in 0..T {
+    let t: i32 = functions::read_line().trim().parse().unwrap();
+    for _ in 0..t {
         let word = String::from(functions::read_line().trim());
         let mut evens = String::new();
         let mut odds = String::new();
