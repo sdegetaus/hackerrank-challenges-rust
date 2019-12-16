@@ -1,3 +1,6 @@
+// Solve Me First
+// https://www.hackerrank.com/challenges/solve-me-first
+
 use std::io;
 
 pub fn main() {
