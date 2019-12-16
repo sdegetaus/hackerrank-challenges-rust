@@ -2,5 +2,5 @@ mod challenges;
 mod functions;
 
 fn main() {
-    challenges::algorithms::solve_me_first::main();
+    challenges::algorithms::simple_array_sum::main();
 }
