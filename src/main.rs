@@ -1,6 +1,6 @@
-mod functions;
 mod challenges;
+mod functions;
 
 fn main() {
-    challenges::thirty_days_of_code::day_00::main();
+    challenges::algorithms::solve_me_first::main();
 }
