@@ -1,6 +1,6 @@
 mod functions;
-mod thirty_days_of_code;
+mod challenges;
 
 fn main() {
-    thirty_days_of_code::day_11::main();
+    challenges::thirty_days_of_code::day_00::main();
 }
