@@ -1,5 +1,6 @@
 // 2. Operators
 // https://www.hackerrank.com/challenges/30-operators
+// NOTE: When I "solved" this challenge it wasn't available for Rust on Hackerrank.
 
 use crate::functions;
 

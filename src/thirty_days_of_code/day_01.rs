@@ -1,5 +1,6 @@
 // 1. Data Types
 // https://www.hackerrank.com/challenges/30-data-types
+// NOTE: When I "solved" this challenge it wasn't available for Rust on Hackerrank.
 
 use crate::functions;
 
