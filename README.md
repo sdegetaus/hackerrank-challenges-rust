@@ -1,2 +1,2 @@
-# hackerrank-challenges-rust
+# HackerRank Challenges Rust
 HackerRank challenges solved with Rust
