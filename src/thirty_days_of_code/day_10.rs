@@ -1,17 +1,16 @@
 // 10. Binary Numbers
 // https://www.hackerrank.com/challenges/30-binary-numbers
 
-// use crate::functions;
+use crate::functions;
 
 pub fn main() {
-    let input: i32 = read_line().trim().parse().unwrap();
+    let input: i32 = functions::read_line().trim().parse().unwrap();
     let binary: String = format!("{:b}", input);
 
     let mut curr_seq = 0;
     let mut max_seq = 0;
 
     for c in binary.chars() {
-
         if c == '1' {
             curr_seq += 1;
         } else {
@@ -23,12 +22,4 @@ pub fn main() {
         }
     }
     println!("{}", max_seq);
-}
-
-pub fn read_line() -> String {
-    let mut input = String::new();
-    std::io::stdin()
-        .read_line(&mut input)
-        .expect("Could not read stdin!");
-    return input;
 }
