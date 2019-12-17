@@ -5,4 +5,5 @@
 
 pub mod mutable_borrow;
 pub mod ownership;
+pub mod shadowing;
 pub mod shared_borrow;
