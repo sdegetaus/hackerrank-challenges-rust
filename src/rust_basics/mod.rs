@@ -4,5 +4,6 @@
 #![allow(dead_code)]
 
 pub mod data_types;
+pub mod functions;
 pub mod guess_game;
 pub mod shadowing;
