@@ -3,5 +3,5 @@ mod functions;
 mod rust_basics;
 
 fn main() {
-    rust_basics::ownership::main();
+    rust_basics::references::main();
 }

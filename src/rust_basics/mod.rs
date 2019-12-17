@@ -8,4 +8,5 @@ pub mod functions;
 pub mod guess_game;
 pub mod loops;
 pub mod ownership;
+pub mod references;
 pub mod shadowing;
