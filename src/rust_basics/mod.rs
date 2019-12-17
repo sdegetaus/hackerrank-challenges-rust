@@ -1,9 +1,8 @@
-// Examples taken from:
-// https://www.youtube.com/watch?v=SZvs15hC81U
+// Examples taken from The Rust Programming Language book
+// https://doc.rust-lang.org/stable/book/
 
 #![allow(dead_code)]
 
-pub mod mutable_borrow;
-pub mod ownership;
+pub mod data_types;
+pub mod guess_game;
 pub mod shadowing;
-pub mod shared_borrow;

@@ -3,5 +3,5 @@ mod functions;
 mod rust_basics;
 
 fn main() {
-    rust_basics::shadowing::main();
+    rust_basics::guess_game::main();
 }
