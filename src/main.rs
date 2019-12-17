@@ -3,5 +3,5 @@ mod functions;
 mod rust_basics;
 
 fn main() {
-    rust_basics::loops::main();
+    rust_basics::ownership::main();
 }
