@@ -20,8 +20,9 @@ You need to change the `main` function  with the challenge you would like to run
 ```rust
 // src/main.rs
 
-mod functions;
 mod challenges;
+mod functions;
+mod rust_basics;
 
 fn main() {
     challenges::thirty_days_of_code::day_00::main();
