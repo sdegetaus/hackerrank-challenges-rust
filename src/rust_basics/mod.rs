@@ -10,3 +10,4 @@ pub mod loops;
 pub mod ownership;
 pub mod references;
 pub mod shadowing;
+pub mod slices;
