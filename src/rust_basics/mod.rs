@@ -4,6 +4,7 @@
 #![allow(dead_code)]
 
 pub mod data_types;
+pub mod enums;
 pub mod example_guess_game;
 pub mod example_rectangle_area;
 pub mod functions;
