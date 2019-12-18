@@ -4,8 +4,9 @@
 #![allow(dead_code)]
 
 pub mod data_types;
+pub mod example_guess_game;
+pub mod example_rectangle_area;
 pub mod functions;
-pub mod guess_game;
 pub mod loops;
 pub mod ownership;
 pub mod references;
