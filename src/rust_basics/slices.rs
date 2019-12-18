@@ -1,3 +1,5 @@
+#![allow(unused_variables)]
+
 pub fn main() {
     let mut s = String::from("hello world");
 
