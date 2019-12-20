@@ -1,6 +1,8 @@
 // 20. Sorting
 // https://www.hackerrank.com/challenges/30-sorting
 
+#![allow(unused_variables)]
+
 use crate::functions;
 
 pub fn main() {
