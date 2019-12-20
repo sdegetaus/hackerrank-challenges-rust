@@ -3,5 +3,5 @@ mod functions;
 mod rust_basics;
 
 fn main() {
-    rust_basics::vectors::main();
+    challenges::thirty_days_of_code::day_20::main();
 }

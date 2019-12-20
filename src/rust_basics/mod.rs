@@ -13,5 +13,6 @@ pub mod ownership;
 pub mod references;
 pub mod shadowing;
 pub mod slices;
+pub mod strings;
 pub mod structs;
 pub mod vectors;
