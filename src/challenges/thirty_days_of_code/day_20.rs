@@ -1,11 +1,11 @@
 // 20. Sorting
 // https://www.hackerrank.com/challenges/30-sorting
 
-// use crate::functions;
+use crate::functions;
 
 pub fn main() {
-    let _ = read_line().trim();
-    let input: String = String::from(read_line().trim());
+    let _ = functions::read_line().trim();
+    let input: String = String::from(functions::read_line().trim());
 
     let mut row = input
         .split(' ')
@@ -35,12 +35,4 @@ fn swaps_from_bubble_sort(vec: &mut Vec<i32>) -> i32 {
     }
 
     number_of_swaps
-}
-
-fn read_line() -> String {
-    let mut input = String::new();
-    std::io::stdin()
-        .read_line(&mut input)
-        .expect("Could not read stdin!");
-    return input;
 }
